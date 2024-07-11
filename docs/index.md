@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "Git Exersize"
-  text: "Git講習会実習編"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  name: "Git Lecture"
+  text: "実習編"
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 事前準備
+    details: Git クライアント(Fork)のインストールと設定をします
+    link: install.md
+  - title: 実習編テキスト
+    details: 実際に手を動かして Git の操作を学びます
+    # link: /chapter1/index.md
 ---
 
