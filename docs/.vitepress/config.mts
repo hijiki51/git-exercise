@@ -24,7 +24,10 @@ export default defineConfig({
       },
       {
         text: "実習編",
-        items: [{ text: "Git レポジトリの作成", link: "/repository.md" }],
+        items: [
+          { text: "Git レポジトリの作成", link: "/repository.md" },
+          { text: "Git レポジトリのクローン", link: "/clone.md" },
+        ],
       },
     ],
 
