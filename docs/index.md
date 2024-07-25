@@ -12,6 +12,6 @@ features:
     link: install.md
   - title: 実習編テキスト
     details: 実際に手を動かして Git の操作を学びます
-    # link: /chapter1/index.md
+    link: repository.md
 ---
 

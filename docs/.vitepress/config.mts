@@ -22,6 +22,10 @@ export default defineConfig({
           { text: "Git クライアントのインストール", link: "/install.md" },
         ],
       },
+      {
+        text: "実習編",
+        items: [{ text: "Git レポジトリの作成", link: "/repository.md" }],
+      },
     ],
 
     socialLinks: [
