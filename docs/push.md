@@ -85,3 +85,36 @@ git reset HEAD {filename}
 
 ![](images/afterpush.png)
 
+## CLIでの操作
+
+
+```bash
+cd ~/path/to/workdir # ディレクトリは個人の環境に合わせて変えてください
+
+code . # VSCodeを開く
+# ファイル編集
+git diff # 変更点確認
+git add {filename} # ステージング
+git commit # コミット
+git log # コミット履歴確認
+# コミットメッセージ編集
+git push # プッシュ
+```
+
+:::info
+`git log` などの出力状態から抜けるには、`q` を押してください。
+:::
+:::info
+`git push`でリモートレポジトリにないブランチをプッシュする際は、`git push -u origin {branchname}` とし、明示的にブランチを指定します。
+:::
+
+:::tip
+CLI でのコミットメッセージを編集するときのエディタは、次のコマンドで変更可能です。
+```bash
+git config --global core.editor "{エディタ起動コマンド}"
+```
+例えば、VSCodeをエディタに設定する場合は
+```bash
+git config --global core.editor "code --wait"
+```
+:::
