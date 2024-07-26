@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Git講習会実習編",
   markdown: {
     theme: {
-      light: "github-dark",
+      light: "github-light",
       dark: "github-dark",
     },
   },
@@ -25,14 +25,15 @@ export default defineConfig({
       {
         text: "実習編",
         items: [
-          { text: "Git レポジトリの作成", link: "/repository.md" },
-          { text: "Git レポジトリのクローン", link: "/clone.md" },
+          { text: "1. Git レポジトリの作成", link: "/repository.md" },
+          { text: "2. Git レポジトリのクローン", link: "/clone.md" },
+          { text: "3. Commit & Push", link: "/push.md" },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/hijiki51/git-exercise" },
     ],
     search: {
       provider: "local",
